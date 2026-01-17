@@ -3,5 +3,6 @@ requests
 openai
 python-dotenv
 gunicorn
-ollama
 flask-cors
+langchain-ollama
+
