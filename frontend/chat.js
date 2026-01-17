@@ -6,7 +6,7 @@ const sendBtn = document.getElementById("send-btn");
 const SESSION_ID = "demo-session-1";
 
 // URL del backend (local); luego la cambiarás a la de Railway
-const API_URL = "http://127.0.0.1:5000/api/chat";
+const API_URL = "https://semillero-ia-cobranza-grupo-dataseed-production.up.railway.app/api/chat";
 
 function addMessage(text, sender) {
   const div = document.createElement("div");
